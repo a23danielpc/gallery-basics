@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Vina+Sans&display=swap');
+html,body{
+    height:100%;
+}
+header,footer{
+    display: flex;
+    background-color: #6F3A1B;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 150px;
+    font-family: 'Vina Sans', sans-serif;
+}
+footer{
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    background-color: white;
+    justify-content:space-around;
+    margin: 3em;
+}
+article{
+    display: flex;
+    background-color: #1B506F;
+    flex-direction: column-reverse;   
+    align-items: center; 
+    color: white;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+
+}
+
+img{
+    border-radius: 50%;
+    padding: 0.2em;
+    width: 250px;
+    height: 250px;
+}
+h1{
+    font-size: 64px;
+}
